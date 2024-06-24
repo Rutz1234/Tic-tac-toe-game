@@ -8,7 +8,7 @@ Certainly! Here's a README.md file that you can use for your Tic-Tac-Toe project
 
 A simple, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-![Tic-Tac-Toe Screenshot](link-to-screenshot.png)
+![Tic-Tac-Toe Screenshot](https://github.com/Rutz1234/Tic-tac-toe-game/blob/main/Screenshot%20(293).png?raw=true)
 
 ## Features
 
