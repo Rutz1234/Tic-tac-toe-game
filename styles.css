@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html,body{
+    height:100%;
+    background-color: #012a4a;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+}
+
+h1{
+    color:#A9D6E5;
+    
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Utilize full viewport height */
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap:5px;
+    background-color: #A9D6E5; 
+}
+.cell{
+    width:100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #012a4a;
+    font-size: 4em;
+    color:#A9D6E5;
+    border:1px solid #012a4a;
+    
+}
+
+button#restart {
+    margin-top: 40px; /*Space between board and button*/
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #A9D6E5;
+    color: #012A4A;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color:#89C2D9 ;
+}
+
+button#restart:hover{
+    background-color:#61A5C2 ;
+}
+#status {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    color: #A9D6E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
+}
