@@ -178,10 +178,6 @@ function restartGame() {
 
 ### Questions and Explanations
 
-#### Why Use a While Loop in C++?
-
-In C++, a while loop might be used to maintain the game's state continuously until a termination condition (like a player quitting or a draw) is met. In JavaScript, this continuous loop structure is replaced by event-driven programming, where the game progresses based on user interactions (click events, button presses).
-
 #### Checking the Win Condition:
 
 JavaScript checks for win conditions by iterating through predefined arrays (`winConditions`) that represent winning combinations on the game board. It compares current board state against these combinations to determine if a player has won.
