@@ -1,8 +1,4 @@
-# Tic-tac-toe-game
 
-Certainly! Here's a README.md file that you can use for your Tic-Tac-Toe project on GitHub:
-
----
 
 # Tic-Tac-Toe Game
 
